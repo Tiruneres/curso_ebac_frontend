@@ -82,6 +82,13 @@ section h2, .articles article {
 section h2 {
     font-size: 32px;
 }
+header .container nav ul li a:hover {
+    text-decoration:underline;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+}
 
 #sports {
     background-color: rgba(0, 255, 0, 0.1);
@@ -101,11 +108,11 @@ section h2 {
 
 }
 
-#tecnology {
+#technology {
     background-color: rgba(0, 0, 100, 0.30);
 }
 
-#tecnology .articles article a {
+#technology .articles article a {
     background-color: #2f3640;
 }
 
