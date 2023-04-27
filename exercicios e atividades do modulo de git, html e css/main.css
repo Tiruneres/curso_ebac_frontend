@@ -25,6 +25,8 @@ header li a {
     text-decoration: none;
 }
 
+
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -67,10 +69,13 @@ section h2, .articles article {
     margin-top: 8px;
 }
 
-.articles article a:hover {
+.articles article a:hover,
+#sports .container a:hover {
     text-decoration:underline;
 }
-.articles article p, .articles article a {
+.articles article p,
+.articles article a,
+#sports .container .volte-topo {
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -82,7 +87,8 @@ section h2, .articles article {
 section h2 {
     font-size: 32px;
 }
-header .container nav ul li a:hover {
+
+header .container li a:hover {
     text-decoration:underline;
 }
 
@@ -122,4 +128,48 @@ header .container nav ul li a {
 
 #entretenimento .articles article a {
     background-color: brown;
+}
+
+#sports .container .volte-topo {
+    background-color: #458b5d;
+    color: #fff;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+#economy .container .volte-topo {
+    background-color: #fdbf68;
+    color: #fff;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+#technology .container .volte-topo {
+    background-color: #6c6e6e;
+    color: #fff;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+#entretenimento .container .volte-topo {
+    background-color: rgb(172, 71, 71);
+    color: #fff;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50%;
 }
