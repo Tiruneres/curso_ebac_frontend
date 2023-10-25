@@ -4,7 +4,7 @@ const ValorB = document.getElementById('valor-b');
 const ValorA = document.getElementById('valor-a');
 
     function ValidaNumeros (numeroB, numeroA) {
-        return numeroB > numeroA;
+        return  parseFloat(numeroB)  > parseFloat(numeroA);
     }
 
 
